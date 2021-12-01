@@ -1,0 +1,109 @@
+:root {
+    --pc: #333333;
+    --sc: #6B438A;
+    --sc2: #182861;
+    --wc: #ffffff;
+    --bc: #000000;
+    --gc: #cccccc;
+    --bg: #F2F2F2;
+    --Fjalla: 'Fjalla One', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pc);
+    /* font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pc);
+}
+
+button {
+    border: none;
+}
+
+
+.section-title h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+    font-family: var(--Fjalla);
+}
+
+.section-title p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    margin: 0;
+}
+
+
+.section-title h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: var(--pc);
+    margin: 0 auto;
+    margin-top: 17px;
+
+}
+
+.custom-btn {
+    background: var(--sc);
+    color: var(--wc);
+    text-transform: capitalize;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+.custom-btn:hover {
+    background: rgba(107, 67, 138, 0.88);
+    color: var(--wc);
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid var(--gc);
+}

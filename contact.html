@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--<html lang="en">-->
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rihad-Online</title>
+    <!--    BOOSTRAP-->
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <!-- FONTAWSOME6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!--    GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--    style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/arabic.css">
+</head>
+
+<body>
+    <!--    HEADER TOP-->
+    <section class="header-top-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-5 d-none d-sm-block">
+                    <div class="header-top-left">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-7">
+                    <div class="header-top-right">
+                        <a href="#">
+                            Arabic
+                            <!--                            <i class="fas fa-angle-down"></i>-->
+                        </a>
+                        <a href="#" class="shopping-cart-image">
+                            <img src="images/icons/shoping-cart.png" alt="">
+                            My Cart
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/profile.png" alt="">
+                            Shaym
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    HEADER TOP END-->
+    <!--    HEADER SECTION-->
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-3">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a href="#">
+                            <img src="images/logo/logo.png" alt="Logo">
+                        </a>
+                        <i class="fa fa-bars d-lg-none" onClick="mobileClick()"></i>
+                    </div>
+                </div>
+                <div class="col-9 d-none d-lg-block">
+                    <div class="menubar">
+                        <ul>
+                            <li><a href="#" class="active">home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Training
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Consultation
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Logistic
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Login
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Account
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Account-1</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Account-1</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+
+    <!--    CONTACT SECTION-->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <p>our official address</p>
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6">
+                    <div class="contact-content">
+                        <h4>Call us</h4>
+                        <p>
+                            We are always happy to answer your inquiries and talk with business people about ways in which we can work together to improve business performance. Our doors are open to everyone, welcome to you
+                        </p>
+                        <p><b>Mobile:</b> 0551175959 </p>
+                        <p><b>Email:</b> info@riadahonline.com </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="contact-content">
+                        <h4>Our Office</h4>
+                        <p>
+                            Riyadh Olaya - next to King Fahd Library - Kingdom of Saudi Arabia.
+                        </p>
+                        <p>
+                            Use this form for immediate follow-up if you would like us to serve you.. Which type of our professional services are most important to you?
+                        </p>
+                        <p>Riyadh, Saudi Arabia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    CONTACT SECTION END-->
+
+    <!--    CONTACT FORM-->
+    <section class="contact-form-section py-5">
+        <div class="container">
+
+            <div class="contact-form">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <div class="form-text">
+                            <p>I hope your honorable person will fill out this form to
+                                serve you to the fullest</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-3">
+                        <label for="">I’m honored by Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="col-12 col-md-6 py-3">
+                        <label for="">Email Address</label>
+                        <input type="text">
+                    </div>
+                    <div class="col-12 col-md-6 py-3">
+                        <label for="">Your Phone</label>
+                        <input type="text">
+                    </div>
+                    <div class="col-12 col-md-6 py-3">
+                        <label for="">Your City</label>
+                        <input type="text">
+                    </div>
+                    <div class="col-12 py-3">
+                        <textarea name="" placeholder="What do you need?"></textarea>
+                    </div>
+                    <div class="col-12 py-3">
+                        <a href="#" class="custom-btn contact-btn">Send Massage</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    CONTACT FORM END-->
+
+    <!--    MAPS SECTION-->
+    <section class="maps-section py-5">
+        <div class="container">
+            <h6>Google Map</h6>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.5760962106206!2d46.7105155643154!3d24.638291110195212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f05a960574eb7%3A0xcbca2977ae2c36ed!2z2YXZg9iq2Kgg2LTYsdmD2Kkg2KfZhNix2YrYsyDYqNin2KjYsdin2Kwg2KfZhNiu2KfZhNiv2YrYqQ!5e0!3m2!1sen!2sbd!4v1630000014540!5m2!1sen!2sbd" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--    MAPS SECTION END-->
+
+
+
+
+
+
+
+
+
+    <!--    FOOTER-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="footer-main pt-4">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 mb-5">
+                        <div class="footer-head">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="images/logo/footer-logo.png" alt="Logo Photo">
+                                </a>
+                            </div>
+                            <p>
+                                welcome to you...
+                                Our doors are open to everyone, We are always happy to answer your inquiries and talk with business people about ways in which we can work together to improve business performance.
+                            </p>
+                        </div>
+                        <div class="footer-head mt-4">
+                            <h6 class="bottom-border">Support</h6>
+                            <ul>
+                                <li class="mt-1">
+                                    <img src="images/icons/call.png" alt="">
+                                    <span>+966 55 117 5959 </span>
+                                </li>
+                                <li class="mt-3">
+                                    <img src="images/icons/mail.png" alt="">
+                                    <span>info@workerksa.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5">
+                        <div class="footer-head">
+                            <h6 class="bottom-border">Useful Link</h6>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Who we are</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Business Policy</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Service offer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">My Request</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Vendor Registration</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Contact Info</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5">
+                        <div class="footer-head">
+                            <h6 class="bottom-border">Office Address</h6>
+                            <p>
+                                Riyadh, Saudi Arabia
+                            </p>
+                            <p>
+                                Riyadh Olaya - next to King Fahd Library -
+                                Kingdom of Saudi Arabia.
+                            </p>
+                            <p>
+                                Use above form for immediate follow-up if
+                                you would like us to serve you.. Which type
+                                of our professional services are most
+                                important to you?
+                            </p>
+                        </div>
+                        <div class="footer-head mt-4">
+                            <h6 class="bottom-border">Social Media</h6>
+                            <div class="header-top-left">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+
+
+    <!--    COPYRIGHT-->
+    <section class="copyright-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>
+                        @copyright-2021 . All rights reserved to Riadahonline
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    COPYRIGHT END-->
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //        MOBILE MENU END
+
+    </script>
+</body>
+
+</html>

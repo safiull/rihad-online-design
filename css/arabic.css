@@ -1,0 +1,137 @@
+.menubar {
+    text-align: left;
+}
+
+.mobile-menu {
+    left: inherit;
+    right: -380px;
+}
+
+.mobileAdd {
+    left: inherit;
+    right: 0 !Important;
+}
+
+.custom.accordion-body ul li a {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.custom.accordion-body ul li a i {
+    margin-right: 0;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.mobile-logo i {
+    float: left;
+}
+
+.mobile-logo img {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.sub-menu {
+    left: inherit;
+    right: 0;
+}
+
+.sub-menu > a {
+    text-align: right;
+}
+
+.header-top-right {
+    text-align: inherit;
+    text-align: left;
+}
+
+.header-top-right a {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.header-top-right a img {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.header-top-left a i {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.subscribe-form button {
+    position: absolute;
+    top: 5px;
+    right: inherit;
+    left: 5px;
+}
+
+.footer-head ul li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.service-overlay h3 {
+    padding-left: 8px;
+}
+
+.bisness-overlay {
+    left: inherit;
+    right: 150px;
+}
+
+.bisness-partner-box {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 20px;
+    background: var(--wc);
+    width: calc(100% - 10%);
+    margin: auto;
+    margin-right: 0;
+    margin-left: -120px;
+}
+
+.bisness-partner-box {
+
+    width: calc(100% - 10%);
+    margin: auto;
+    margin-left: -120px;
+}
+
+.bisness-partner-box img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.footer-head ul li img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.service-left a i {
+    float: left;
+    margin-top: 3px;
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+.mission-vission-box img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.partner-line img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+
+
+@media only screen and (max-width:991px) {
+    .bisness-partner-box {
+        width: calc(100% - 10%);
+        margin: auto;
+    }
+}
